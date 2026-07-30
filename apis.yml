@@ -1,7 +1,27 @@
 aid: loris
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/loris.png
 name: Loris
-description: Loris is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Loris was an AI-powered customer service and conversation intelligence
+  platform that analyzed voice, chat, and email interactions to surface contact
+  drivers, sentiment shifts, and quality signals for support teams. Originally a
+  Techstars-backed startup, Loris was acquired by Contentsquare and its product
+  has been folded into the Contentsquare Conversation Intelligence offering. The
+  standalone loris.ai property now 301-redirects to contentsquare.com and the
+  company no longer publishes an independent public developer API, developer
+  portal, or API documentation surface. This profile is retained in the API
+  Evangelist network as an acquired-company record.
 url: https://raw.githubusercontent.com/api-evangelist/loris/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +29,19 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-acquired-by: contentsquare
+x-status: acquired
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Customer Service
+- Conversation Intelligence
+- Customer Experience
+- Artificial Intelligence
+- Contact Center
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/loris-domain-security.yml
 - type: Website
-  url: https://getloris.com/
+  url: https://loris.ai/
+- type: Acquirer
+  url: https://contentsquare.com/platform/conversation-intelligence/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
