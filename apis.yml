@@ -60,6 +60,11 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/contentsquare/
+  name: Contentsquare
+  x-relationship: acquired
+  x-evidence: "Originally a Techstars-backed startup, Loris was acquired by Contentsquare and its product has been folded into the Contentsquare Conversation Intelligence offering."
 - type: DomainSecurity
   url: security/loris-domain-security.yml
 - type: Website
