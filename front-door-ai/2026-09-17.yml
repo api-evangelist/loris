@@ -1,0 +1,32 @@
+# Front Door AI Index — loris — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: loris
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: loris.ai
+  final_host: contentsquare.com
+  ownership: own
+  owner: loris
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 35
+  host_score: 35
+  density: 29.51
+  words: 1186
+  tiers:
+    agentic: 11
+    core: 22
+    model: 2
+  ambiguous: 31
+  top_terms:
+    AI: 20
+    agent: 15
+    intelligence: 12
+    AI agent: 9
+    automation: 4
+    ChatGPT: 2
+    LLMs: 2
+    prompts: 2
