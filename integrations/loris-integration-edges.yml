@@ -1,0 +1,42 @@
+edges:
+- partner_name: Gorgias (own)
+  partner: gorgias
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.gorgias.com/apps/loris
+  mirror_of: gorgias/integrations/gorgias-integration-edges.yml
+  apps:
+  - Loris
+  listing_count: 1
+  detected: '2026-10-19'
+  detected_by: mirror-platform-listings.py
+- partner_name: Zendesk (own)
+  partner: zendesk
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.zendesk.com/marketplace/apps/support/347289/loris-for-support/
+  mirror_of: zendesk/integrations/zendesk-integration-edges.yml
+  apps:
+  - Loris for Support
+  listing_count: 1
+  detected: '2026-10-19'
+  detected_by: mirror-platform-listings.py
+  category: Messaging
+generated: '2026-10-19'
+method: searched
+source:
+- gorgias/integrations/gorgias-integration-edges.yml
+- zendesk/integrations/zendesk-integration-edges.yml
+checked:
+- gorgias/integrations/gorgias-integration-edges.yml
+- zendesk/integrations/zendesk-integration-edges.yml
