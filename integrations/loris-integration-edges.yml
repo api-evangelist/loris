@@ -32,6 +32,23 @@ edges:
   detected: '2026-10-19'
   detected_by: mirror-platform-listings.py
   category: Messaging
+- partner_name: Intercom (own)
+  partner: intercom
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://www.intercom.com/app-store/?app_package_code=loris-cqa
+  mirror_of: intercom/integrations/intercom-integration-edges.yml
+  apps:
+  - Loris CQA
+  listing_count: 1
+  detected: '2026-10-23'
+  detected_by: mirror-platform-listings.py
+  category: Analytics
 generated: '2026-10-19'
 method: searched
 source:
@@ -40,3 +57,4 @@ source:
 checked:
 - gorgias/integrations/gorgias-integration-edges.yml
 - zendesk/integrations/zendesk-integration-edges.yml
+- intercom/integrations/intercom-integration-edges.yml
